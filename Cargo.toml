@@ -1,0 +1,15 @@
+[package]
+name = "dhist"
+description = "Save and sort most often used dmenu-like input"
+authors = ["Leonardo Eugênio <lelgeio@disroot.org>"]
+license = "GPL-3.0"
+version = "0.1.1"
+edition = "2021"
+readme = "README.md"
+
+[dependencies]
+dirs = "4.0.0"
+
+[dependencies.clap]
+version = "3.0.0-beta.4"
+features = ["color", "cargo"]
